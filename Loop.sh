@@ -7,12 +7,13 @@
 
 y="23882"
 
+#Denotes the PID if you Open "Mines"
 while [ $y == "23882" ]
 do 
     ps aux
     echo "Choose a PID"
     read pid
     kill $pid
-    break 
+    break
 
 done
