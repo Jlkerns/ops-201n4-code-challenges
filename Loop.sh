@@ -5,10 +5,10 @@
 #Date of latest revision: 05/2/2023
 #Purpose: Create Loops. Display PID.  Kill PID.
 
-y="23882"
+y="x"
 
 #Denotes the PID if you Open "Mines"
-while [ $y == "23882" ]
+while [ $y == "x" ]
 do 
     ps aux
     echo "Choose a PID"
