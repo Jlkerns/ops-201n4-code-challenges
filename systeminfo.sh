@@ -22,5 +22,3 @@ sudo lshw -C display
 
 echo "Below is the Network data"
 sudo lshw -C network
-
-done
