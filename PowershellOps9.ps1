@@ -19,4 +19,4 @@ Task4
 Get-EventLog -LogName System -Newest 20
 
 Task5
-$Events Get-EventLog -LogName System -Newest 500 | select -ExpandProperty message
+Get-EventLog -LogName System -Newest 500 | select -ExpandProperty message
