@@ -22,6 +22,8 @@ Task 4
 Start a browser process (such as Google Chrome or MS Edge) and have it open https://owasp.org/www-project-top-ten/.
 
 Start-Process "https://owasp.org/www-project-top-ten/"
+Start-Process -FilePath "C:\Progam Files (x86)\Internet Explorer\iexplore.exe"
+https://owasp.org/www-project-top-ten
 
 Task5
 Start the process Notepad ten times using a for loop.
