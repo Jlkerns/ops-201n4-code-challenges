@@ -4793,3 +4793,90 @@ Jun  1 19:06:57 jessekerns-OptiPlex-3020 nautilus[13923]: Called "net usershare 
 Jun  1 19:06:57 jessekerns-OptiPlex-3020 dbus-daemon[800]: [system] Successfully activated service 'org.freedesktop.hostname1'
 Jun  1 19:06:57 jessekerns-OptiPlex-3020 systemd[1]: Started Hostname Service.
 Jun  1 19:07:27 jessekerns-OptiPlex-3020 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Characters.BackgroundService' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 systemd[1479]: Starting GNOME Terminal Server...
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Nautilus'
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Characters.BackgroundService'
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Terminal'
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 systemd[1479]: Started GNOME Terminal Server.
+Jun  1 19:15:34 jessekerns-OptiPlex-3020 nautilus[14419]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 systemd[1479]: Starting GNOME Terminal Server...
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Nautilus'
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Terminal'
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 systemd[1479]: Started GNOME Terminal Server.
+Jun  1 19:15:57 jessekerns-OptiPlex-3020 nautilus[14496]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Jun  1 19:16:18 jessekerns-OptiPlex-3020 systemd[1479]: Started Application launched by gnome-shell.
+Jun  1 19:16:18 jessekerns-OptiPlex-3020 gnome-shell[1696]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Jun  1 19:16:19 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.9' (uid=1000 pid=1552 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 19:16:19 jessekerns-OptiPlex-3020 systemd[1479]: Starting Tracker metadata extractor...
+Jun  1 19:16:19 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+Jun  1 19:16:19 jessekerns-OptiPlex-3020 systemd[1479]: Started Tracker metadata extractor.
+Jun  1 19:16:43 jessekerns-OptiPlex-3020 shotwell[14567]: gtk_drag_source_set_icon_pixbuf: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+Jun  1 19:17:01 jessekerns-OptiPlex-3020 CRON[14600]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 gnome-shell[14620]: Warning: failed to launch javaldx - java may not function correctly
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.800304] kauditd_printk_skb: 153 callbacks suppressed
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.800306] audit: type=1400 audit(1685665056.398:281): apparmor="ALLOWED" operation="open" class="file" profile="libreoffice-soffice" name="/sys/devices/pci0000:00/0000:00:02.0/drm/card0/gt_min_freq_mhz" pid=14637 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.800310] audit: type=1400 audit(1685665056.398:282): apparmor="ALLOWED" operation="open" class="file" profile="libreoffice-soffice" name="/sys/devices/pci0000:00/0000:00:02.0/drm/card0/gt_max_freq_mhz" pid=14637 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.901696] audit: type=1400 audit(1685665056.498:283): apparmor="ALLOWED" operation="connect" class="file" profile="libreoffice-soffice" name="/run/user/1000/at-spi/bus" pid=14636 comm="soffice.bin" requested_mask="wr" denied_mask="wr" fsuid=1000 ouid=1000
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.901827] audit: type=1400 audit(1685665056.498:284): apparmor="ALLOWED" operation="file_perm" class="file" profile="libreoffice-soffice" name="/run/user/1000/at-spi/bus" pid=14636 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jun  1 19:17:36 jessekerns-OptiPlex-3020 kernel: [104189.901831] audit: type=1400 audit(1685665056.498:285): apparmor="ALLOWED" operation="file_perm" class="file" profile="libreoffice-soffice" name="/run/user/1000/at-spi/bus" pid=14636 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+Jun  1 19:18:28 jessekerns-OptiPlex-3020 soffice.bin[14636]: g_object_get_qdata: assertion 'G_IS_OBJECT (object)' failed
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Nautilus' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating service name='org.gnome.Characters.BackgroundService' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.31' (uid=1000 pid=1696 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 systemd[1479]: Starting GNOME Terminal Server...
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Nautilus'
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Characters.BackgroundService'
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.gnome.Terminal'
+Jun  1 19:19:43 jessekerns-OptiPlex-3020 systemd[1479]: Started GNOME Terminal Server.
+Jun  1 19:19:44 jessekerns-OptiPlex-3020 nautilus[14693]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Jun  1 19:19:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Extract' unit='tracker-extract-3.service' requested by ':1.9' (uid=1000 pid=1552 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Jun  1 19:19:57 jessekerns-OptiPlex-3020 systemd[1479]: Starting Tracker metadata extractor...
+Jun  1 19:19:57 jessekerns-OptiPlex-3020 dbus-daemon[1500]: [session uid=1000 pid=1500] Successfully activated service 'org.freedesktop.Tracker3.Miner.Extract'
+Jun  1 19:19:57 jessekerns-OptiPlex-3020 systemd[1479]: Started Tracker metadata extractor.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockContainer>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashToDock>:0x55887ab537d0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashSlideContainer>:0x55887c337900] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockBox>[<StBoxLayout>:0x55887c79efb0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dash>[<Gjs_ubuntu-dock_ubuntu_com_dash_DockDash>:0x55887d2fa210] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashContainer>[<StBoxLayout>:0x5588799b9ab0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashScrollview>[<StScrollView>:0x558879caf0f0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<StBoxLayout>:0x558878aa8540] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockContainer>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashToDock>:0x55887ab537d0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashSlideContainer>:0x55887c337900] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockBox>[<StBoxLayout>:0x55887c79efb0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dash>[<Gjs_ubuntu-dock_ubuntu_com_dash_DockDash>:0x55887d2fa210] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashContainer>[<StBoxLayout>:0x5588799b9ab0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashScrollview>[<StScrollView>:0x558879caf0f0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<StBoxLayout>:0x558878aa8540] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockContainer>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashToDock>:0x55887ab537d0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashSlideContainer>:0x55887c337900] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockBox>[<StBoxLayout>:0x55887c79efb0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dash>[<Gjs_ubuntu-dock_ubuntu_com_dash_DockDash>:0x55887d2fa210] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashContainer>[<StBoxLayout>:0x5588799b9ab0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashScrollview>[<StScrollView>:0x558879caf0f0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<StBoxLayout>:0x558878aa8540] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockContainer>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashToDock>:0x55887ab537d0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<Gjs_ubuntu-dock_ubuntu_com_docking_DashSlideContainer>:0x55887c337900] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockBox>[<StBoxLayout>:0x55887c79efb0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dash>[<Gjs_ubuntu-dock_ubuntu_com_dash_DockDash>:0x55887d2fa210] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashContainer>[<StBoxLayout>:0x5588799b9ab0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <dashtodockDashScrollview>[<StScrollView>:0x558879caf0f0] is on because it needs an allocation.
+Jun  1 19:20:05 jessekerns-OptiPlex-3020 gnome-shell[1696]: Can't update stage views actor <unnamed>[<StBoxLayout>:0x558878aa8540] is on because it needs an allocation.
+Jun  1 19:22:11 jessekerns-OptiPlex-3020 NetworkManager[801]: <info>  [1685665331.2926] dhcp4 (enp2s0): state changed new lease, address=192.168.68.68
+Jun  1 19:29:39 jessekerns-OptiPlex-3020 gnome-shell[1696]: libinput error: event3  - Usb KeyBoard Usb KeyBoard: client bug: event processing lagging behind by 22ms, your system is too slow
+Jun  1 19:30:01 jessekerns-OptiPlex-3020 CRON[15544]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Jun  1 19:30:02 jessekerns-OptiPlex-3020 gnome-shell[1696]: libinput error: event3  - Usb KeyBoard Usb KeyBoard: client bug: event processing lagging behind by 26ms, your system is too slow
