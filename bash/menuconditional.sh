@@ -1,4 +1,9 @@
 #!/bin/bash
+# script: Ops 301 Class 04 Ops Challenge
+# Author: Jesse Kerns
+# Date of latest revision 6/12/23
+ # Purpose: Conditional statemetn with menu
+ # Main
 
 while true; do
     clear
