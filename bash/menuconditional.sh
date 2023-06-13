@@ -2,7 +2,7 @@
 # script: Ops 301 Class 04 Ops Challenge
 # Author: Jesse Kerns
 # Date of latest revision 6/12/23
- # Purpose: Conditional statemetn with menu
+ # Purpose: Conditional statement with menu
  # Main
 
 while true; do
@@ -22,7 +22,7 @@ while true; do
             echo "Hello world!"
             ;;
         2)
-            ping -c 4 127.0.0.1
+            ping -c 3 localhost
             ;;
         3)
             ifconfig
@@ -32,7 +32,7 @@ while true; do
             exit 0
             ;;
         *)
-            echo "Invalid choice. Please try again."
+            echo "Please choose 1-4. Try again."
             ;;
     esac
 
