@@ -6,13 +6,14 @@
 # Main
 import os
 
-
+#Execute 'whoami' command
 whoami = os.popen('whoami').read()
-
+#Execute 'ip a' command
 ip = os.popen('ip a').read()
-
+#Execute 'lshw -short' command
 lshw = os.popen('lshw -short').read()
 
+#Print the results
 print("Output of 'whoami' command:")
 print(whoami)
 
