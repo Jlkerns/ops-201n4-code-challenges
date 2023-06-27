@@ -13,7 +13,7 @@ print(hero[3])
 #print the value of 6th through 10th variable
 print(hero[5:10])
 
-#replace 6th varaible with deadpool
+#replace 7th varaible with deadpool
 hero[6] = 'deadpool'
 
 #print updated list
