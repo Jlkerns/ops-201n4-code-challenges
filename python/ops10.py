@@ -1,3 +1,7 @@
+# script: Ops 301 Class 10 Ops Challenge
+# Author: Jesse Kerns
+# Date of latest revision 7/10/23
+# Purpose: Python Requests
 # Create a Python script that performs the following:
 
 # Prompt the user to type a string input as the variable for your destination URL.
