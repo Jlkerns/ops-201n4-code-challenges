@@ -16,7 +16,7 @@ nr_letters= int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-# What is line 15 doing?
+# What is line 15 doing? This is creating a blank array for the password.
 password = []
 
 # Below is the guide how to write the for loop you need to write for symbols and numbers
