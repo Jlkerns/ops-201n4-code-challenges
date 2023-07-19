@@ -1,0 +1,37 @@
+# script: Ops 301 Class 12 Ops Challenge
+# Author: Jesse Kerns
+# Date of latest revision 7/19/23
+# Today in Class we are building the childhood game Rock Paper Scissors
+# We are going to import the random function for our code today
+# Bonus objective can you put it on a while loop to play again
+# Write your code below this line:
+
+import random
+
+while True:
+    user_action = input("Enter a choice (rock, paper, scissors): ")
+    possible_actions = ["rock", "paper", "scissors"]
+    computer_action = random.choice(possible_actions)
+    print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+
+    if user_action == computer_action:
+        print(f"Both players selected {user_action}. It's a tie!")
+    elif user_action == "rock":
+        if computer_action == "scissors":
+            print("Rock smashes scissors! You win!")
+        else:
+            print("Paper covers rock! You lose.")
+    elif user_action == "paper":
+        if computer_action == "rock":
+            print("Paper covers rock! You win!")
+        else:
+            print("Scissors cuts paper! You lose.")
+    elif user_action == "scissors":
+        if computer_action == "paper":
+            print("Scissors cuts paper! You win!")
+        else:
+            print("Rock smashes scissors! You lose.")
+
+    play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break
